@@ -10,10 +10,9 @@ To utilize the app, the following steps must be executed:
 - Ensure Java is installed on your system. This application requires Java SE 8 or later.
 - Download the provided Java files: InfixToPostfixConverter.java, PostfixCalculatorApp.java, and PostfixCalculatorPanel.java.
 - Compile these files into a .jar executable. This can be achieved by executing the following command in your terminal or command prompt:
-
-    javac -d . InfixToPostfixConverter.java PostfixCalculatorApp.java PostfixCalculatorPanel.java
-    jar cvfe InfixToPostfixCalculator.jar [Main-Class] *.class
-- Replace [Main-Class] with the class name containing the main method, typically PostfixCalculatorApp.
+### 1. javac -d . InfixToPostfixConverter.java PostfixCalculatorApp.java PostfixCalculatorPanel.java
+### 2. jar cvfe InfixToPostfixCalculator.jar [Main-Class] *.class
+*Replace [Main-Class] with the class name containing the main method, typically PostfixCalculatorApp.
 ## Running App
 To run the application, use the following command:
 
